@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Elektron tijorat bozori tahlili</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="intro-screen" id="intro">
+        <div class="intro-content">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg"
+                        alt="Student Profile Picture">
+                </div>
+                <div class="profile-info">
+                    <h2 class="student-name">Gafurjonov Khabibullokh</h2>
+                    <p class="student-details">Guruh: 120-21</p>
+                    <p class="student-details">Yo'nalish: Elektron tijorat</p>
+                    <p class="student-details">Fakultet: AKTSIM</p>
+                </div>
+            </div>
+            <div class="project-title">
+                <h2>O'zbekiston Respublikasidagi eng yirik elektron bozorlarning qiyosiy tahlili</h2>
+                <p class="tagline">Bitiruv malakaviy ishi uchun qo'shimcha</p>
+            </div>
+            <button id="enter-btn" class="enter-btn">Dasturga kirish</button>
+        </div>
+    </div>
+    <div id="main-content" class="main-wrapper hidden">
+        <header>
+            <div class="container header-container">
+                <h1>Elektron tijorat bozori tahlili</h1>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#general-market">Umumiy bozor</a></li>
+                        <li><a href="#market-analysis">Bozor tahlili</a></li>
+                        <li><a href="#about-program">Dastur haqida</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="container">
+            <section id="general-market" style="margin-top: 30px;" class="section">
+                <div class="section-header">
+                    <h2>Umumiy elektron bozor</h2>
+                </div>
+                <div class="section-content">
+                    <div class="text-with-image">
+                        <div class="text-content">
+                            <h3>Elektron tijoratning hozirgi holati</h3>
+                            <p>So'nggi yillarda elektron tijorat bozori sezilarli o'sishni kuzatdi, ko'proq
+                                iste'molchilar qulaylik va xilma-xillik uchun onlayn xaridlarga murojaat qilmoqdalar.
+                                Ushbu siljish texnologik taraqqiyot va iste'molchilarning xatti-harakatlarining
+                                o'zgarishi bilan tezlashdi.</p>
+
+                            <h3>Bozor ehtiyojlari</h3>
+                            <p>Bugungi elektron tijorat bozori uzluksiz, xavfsiz foydalanuvchi tajribasini taklif
+                                qiluvchi platformalarni talab qiladi
+                                to'lov tizimlari va samarali yetkazib berish imkoniyatlari. Iste'molchilar shaxsiy
+                                xaridlarni kutishadi
+                                tajriba va shaffof biznes amaliyotlari.</p>
+                        </div>
+                        <div class="image-container">
+                            <div class="css-chart bar-chart">
+                                <h4>Elektron tijoratning yillar davomida o'sishi</h4>
+                                <h6>(mlrd $ da)</h6>
+                                <div class="chart-container">
+                                    <div class="chart-bar" style="height: 22%;">
+                                        <span class="bar-label">2023</span>
+                                        <span class="bar-value">0.543</span>
+                                    </div>
+                                    <div class="chart-bar" style="height: 33%;">
+                                        <span class="bar-label">2024</span>
+                                        <span class="bar-value">0.765</span>
+                                    </div>
+                                    <div class="chart-bar" style="height: 44%;">
+                                        <span class="bar-label">2025</span>
+                                        <span class="bar-value">1.08</span>
+                                    </div>
+                                    <div class="chart-bar" style="height: 66%;">
+                                        <span class="bar-label">2026</span>
+                                        <span class="bar-value">1.52</span>
+                                    </div>
+                                    <div class="chart-bar" style="height: 90%;">
+                                        <span class="bar-label">2027</span>
+                                        <span class="bar-value">2.2</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-with-image reverse">
+                        <div class="text-content">
+                            <h3>Asosiy xususiyatlar</h3>
+                            <p>Zamonaviy elektron tijorat manzarasi quyidagilar bilan xarakterlanadi:</p>
+                            <ul>
+                                <li>"Mobil-birinchi" yondashuv</li>
+                                <li>Ijtimoiy media platformalari bilan integratsiya</li>
+                                <li>AI bilan ishlaydigan tavsiyalar</li>
+                                <li>Bir nechta Ko'p to'lov turlari</li>
+                                <li>Mijozlarning sharhlari va reytinglariga e'tibor berish</li>
+                            </ul>
+                        </div>
+                        <div class="image-container">
+                            <div class="css-chart pie-chart">
+                                <h4>Elektron bozorlarning platformasidan foydalanish</h4>
+                                <div class="pie-container"></div>
+                                <div class="pie-legend">
+                                    <div class="legend-item"><span class="color-box"
+                                            style="background-color: #ff0000;"></span>Maishiy texnika & Elektronika
+                                        (35%)</div>
+                                    <div class="legend-item"><span class="color-box"
+                                            style="background-color: #ff8800;"></span>Moda (19%)</div>
+                                    <div class="legend-item"><span class="color-box"
+                                            style="background-color: #fff700;"></span>Uy mahsulotlari (3%)</div>
+                                    <div class="legend-item"><span class="color-box"
+                                            style="background-color: #2bff00;"></span>Oziq-ovqat, ichimliklar va tamaki
+                                        (3%)</div>
+                                    <div class="legend-item"><span class="color-box"
+                                            style="background-color: #00ffee;"></span>Salomatlik va Go'zallik (2%)</div>
+                                    <div class="legend-item"><span class="color-box"
+                                            style="background-color: #1900ff;"></span>Boshqa mahsulotlar (38%)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="market-analysis" style="margin-top: 30px;" class="section">
+                <div class="section-header">
+                    <h2>Bozor tahlili</h2>
+                </div>
+                <div class="section-content">
+                    <div class="tabs">
+                        <input type="radio" name="platform-tabs" id="tab-olx" checked>
+                        <label for="tab-olx" class="tab-label">OLX</label>
+
+                        <input type="radio" name="platform-tabs" id="tab-uzum">
+                        <label for="tab-uzum" class="tab-label">Uzum Market</label>
+
+                        <input type="radio" name="platform-tabs" id="tab-asaxiy">
+                        <label for="tab-asaxiy" class="tab-label">Asaxiy</label>
+
+                        <input type="radio" name="platform-tabs" id="tab-comparison">
+                        <label for="tab-comparison" class="tab-label">Taqqoslash</label>
+
+                        <div class="tab-content" id="olx-content">
+                            <h3>OLX.uz tahlili</h3>
+                            <div class="platform-details">
+                                <div class="platform-image">
+                                    <img src="https://static.olx.uz/static/olxuz/naspersclassifieds-regional/olxeu-atlas-web-olxuz/static/img/fb/fb-image_redesign.png"
+                                        alt="OLX Platform">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>Umumiy ko'rinish</h4>
+                                    <p>OLX.uz - ommabop e'lonlar platformasi bo'lib, unda foydalanuvchilar keng ko'lamli
+                                        narsalarni sotib olishlari va sotishlari mumkin
+                                        mahsulotlar assortimenti. U to'g'ridan-to'g'ri ishlashga imkon beruvchi
+                                        peer-to-peer modelida ishlaydi
+                                        xaridorlar va sotuvchilar o'rtasidagi muzokaralar.</p>
+
+                                    <h4>Asosiy kuchli tomonlar</h4>
+                                    <ul>
+                                        <li>Asosiy foydalanuvchilar uchun bepul ro'yxatlar</li>
+                                        <li>Turli demografik guruhlarda keng foydalanuvchi bazasi</li>
+                                        <li>Oddiy va tushunarli foydalanuvchi interfeysi</li>
+                                        <li>Xaridorlar va sotuvchilar o'rtasidagi to'g'ridan-to'g'ri aloqa</li>
+                                    </ul>
+                                    <h4>Kamsiz tomonlari</h4>
+                                    <ul>
+                                        <li>Cheklangan to'lov integratsiyasi imkoniyatlari</li>
+                                        <li>O'rnatilgan yetkazib berish xizmatlari yo'q</li>
+                                        <li>Firibgar ro'yxatlar ehtimoli</li>
+                                        <li>Kamroq tuzilgan xarid qilish tajribasi</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="economic-factors">
+                                <h4>Iqtisodiy omillar</h4>
+                                <p>OLX.uz asosiy ro'yxatlar bepul, lekin premium bo'lgan freemium modelida ishlaydi
+                                    xususiyatlar to'lovni talab qiladi. Narxlar ko'pincha foydalanuvchilar o'rtasida
+                                    kelishib olinadi, a yaratish
+                                    dinamik narxlash muhiti.</p>
+                                <p>To'lov odatda oflayn rejimda amalga oshiriladi, aksariyat tranzaksiyalar naqd pulda
+                                    amalga oshiriladi
+                                    uchrashuv. Bu platformaning daromad oqimlarini cheklaydi, lekin jarayonni
+                                    soddalashtiradi
+                                    foydalanuvchilar.</p>
+
+                                <div class="css-chart horizontal-bar-chart">
+                                    <h4>OLX daromad manbalari</h4>
+                                    <div class="horizontal-chart-container">
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">Premium ro'yxatlar</div>
+                                            <div class="h-bar-value" style="width: 65%; background-color: #002B2E; color: #16E0C2;">65%</div>
+                                        </div>
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">Tanlangan reklamalar</div>
+                                            <div class="h-bar-value" style="width: 20%; background-color: #002B2E; color: #16E0C2;">20%</div>
+                                        </div>
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">Banner reklamalari</div>
+                                            <div class="h-bar-value" style="width: 10%; background-color: #002B2E; color: #16E0C2;">10%</div>
+                                        </div>
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">Boshqa</div>
+                                            <div class="h-bar-value" style="width: 5%; background-color: #002B2E; color: #16E0C2;">5%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="social-factors">
+                                <h4>Ijtimoiy omillar</h4>
+                                <p>OLX.uz ayniqsa, Direct-dan qulay bo'lgan yosh foydalanuvchilar orasida mashhur
+                                    muzokaralar. Platforma shaharda ham, qishloqda ham kuchli mavjud
+                                    turli xil foydalanish usullari.</p>
+                                <p>Foydalanuvchi sharhlari va reytinglari xaridorlar o'rtasida ishonchni o'rnatishda
+                                    muhim rol o'ynaydi
+                                    va sotuvchilar, o'z-o'zini tartibga soluvchi hamjamiyatni yaratish.</p>
+
+                                <div class="css-chart donut-chart">
+                                    <h4>OLX foydalanuvchisi demografiyasi</h4>
+                                    <div class="donut-container">
+                                        <div class="donut-segment" style="--start: 0; --end: 0.4; --color: #ff846b;">
+                                        </div>
+                                        <div class="donut-segment" style="--start: 0.4; --end: 0.7; --color: #f7b32b;">
+                                        </div>
+                                        <div class="donut-segment" style="--start: 0.7; --end: 0.9; --color: #3a86ff;">
+                                        </div>
+                                        <div class="donut-segment" style="--start: 0.9; --end: 1; --color: #43aa8b;">
+                                        </div>
+                                    </div>
+                                    <div class="donut-legend">
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #ff846b;"></span>18-24 (40%)</div>
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #f7b32b;"></span>25-34 (30%)</div>
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #3a86ff;"></span>35-44 (20%)</div>
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #43aa8b;"></span>45+ (10%)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="uzum-content">
+                            <h3>Uzum Market tahlili</h3>
+                            <div class="platform-details">
+                                <div class="platform-image">
+                                    <img src="https://marketing.uz/brend-goda-2022/uploads/works/covers/bfac7248285eb3feb82cce2cea351725.jpg"
+                                        alt="Uzum Market Platform">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>Umumiy ko'rinish</h4>
+                                    <p>Uzum Market keng assortimentni taklif qiluvchi keng qamrovli elektron tijorat
+                                        platformasidir
+                                        tasdiqlangan sotuvchilardan olingan mahsulotlar. bilan bozor modelida ishlaydi
+                                        integratsiyalashgan to'lov va yetkazib berish tizimlari.</p>
+
+                                    <h4>Asosiy kuchli tomonlar</h4>
+                                    <ul>
+                                        <li>Integratsiyalashgan Uzum Pay to'lov tizimi</li>
+                                        <li>Tuzilgan va tanlangan xarid qilish tajribasi</li>
+                                        <li>Kuchli mobil ilova mavjudligi</li>
+                                        <li>Tasdiqlangan sotuvchilar va mahsulot sifati kafolati</li>
+                                    </ul>
+
+                                    <h4>Kamsiz tomonlari</h4>
+                                    <ul>
+                                        <li>E'lonlarga nisbatan sotuvchilar uchun yuqori to'lovlar</li>
+                                        <li>Yangi sotuvchilar uchun yanada murakkab ishga tushirish jarayoni</li>
+                                        <li>Standart narxlash modellari bilan cheklangan</li>
+                                        <li>Xaridorlar va sotuvchilar o'rtasida kamroq to'g'ridan-to'g'ri aloqa</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="economic-factors">
+                                <h4>Iqtisodiy omillar</h4>
+                                <p>Uzum Market muntazam aksiyalar bilan standartlashtirilgan narxlash tuzilmasini joriy
+                                    etadi va
+                                    chegirmalar. Platforma sotuvchilardan komissiya to'lovlarini oladi, bu esa
+                                    barqarorlikni yaratadi
+                                    daromad modeli.</p>
+                                <p>Integratsiyalashgan Uzum Pay tizimi xavfsiz onlayn tranzaktsiyalarni osonlashtiradi,
+                                    bu esa imkoniyatlarni kengaytiradi
+                                    platformaning iqtisodiy imkoniyatlari va foydalanuvchi ishonchi.</p>
+
+                                <div class="css-chart horizontal-bar-chart">
+                                    <h4>Uzum Market daromad manbalari</h4>
+                                    <div class="horizontal-chart-container">
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">Komissiya to'lovlari</div>
+                                            <div class="h-bar-value" style="width: 55%; background-color: #9a00f3;">55%</div>
+                                        </div>
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">Uzum Pay</div>
+                                            <div class="h-bar-value" style="width: 25%; background-color: #9a00f3;">25%</div>
+                                        </div>
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">Premium xizmatlar</div>
+                                            <div class="h-bar-value" style="width: 15%; background-color: #9a00f3;">15%</div>
+                                        </div>
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">Boshqa</div>
+                                            <div class="h-bar-value" style="width: 5%; background-color: #9a00f3;">5%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="social-factors">
+                                <h4>Ijtimoiy omillar</h4>
+                                <p>Uzum Market qulaylik va xavfsizlikni qadrlaydigan o'rta va yuqori daromadli
+                                    foydalanuvchilarga mo'ljallangan
+                                    narx bo'yicha muzokaralar. Platforma shahar joylarida kuchliroq mavjud
+                                    ishonchli internet aloqasi.</p>
+                                <p>Platforma mahsulotning batafsil sharhlari, reytinglari,
+                                    va sotib olish qarorlariga ta'sir qilish bo'yicha tavsiyalar.</p>
+
+                                <div class="css-chart donut-chart">
+                                    <h4>Uzum Market foydalanuvchi demografiyasi</h4>
+                                    <div class="donut-container">
+                                        <div class="donut-segment" style="--start: 0; --end: 0.25; --color: #ff846b;"></div>
+                                        <div class="donut-segment" style="--start: 0.25; --end: 0.65; --color: #f7b32b;"></div>
+                                        <div class="donut-segment" style="--start: 0.65; --end: 0.85; --color: #3a86ff;"></div>
+                                        <div class="donut-segment" style="--start: 0.85; --end: 1; --color: #43aa8b;">
+                                        </div>
+                                    </div>
+                                    <div class="donut-legend">
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #ff846b;"></span>18-24 (25%)</div>
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #f7b32b;"></span>25-34 (40%)</div>
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #3a86ff;"></span>35-44 (20%)</div>
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #43aa8b;"></span>45+ (15%)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="asaxiy-content">
+                            <h3>Asaxiy tahlili</h3>
+                            <div class="platform-details">
+                                <div class="platform-image">
+                                    <img src="https://play-lh.googleusercontent.com/S_q7990lFbMPtyT2QzItTvS7CK1VSZcFb8EOO1W8BtpzDga5ginYNMyYZWNTOHc6xQ"
+                                        alt="Asaxiy Platform">
+                                </div>
+                                <div class="platform-info">
+                                    <h4>Umumiy ko'rinish</h4>
+                                    <p>Asaxiy - bu elektronikaga ixtisoslashgan yaxshi tashkil etilgan elektron tijorat
+                                        platformasi, kitoblar va uy-ro'zg'or buyumlari. U to'g'ridan-to'g'ri chakana
+                                        savdo
+                                        elementlarini birlashtiradi va bozor modellari.</p>
+                                    <h4>Kuchli tomonlari</h4>
+                                    <ul>
+                                        <li>Kuchli brend tan olinishi va ishonch</li>
+                                        <li>Mutaxassislar tanlovi bilan maxsus mahsulotlar toifalari</li>
+                                        <li>Samarali yetkazib berish infratuzilmasi</li>
+                                        <li>Integratsiyalashgan mijozlarni qo'llab-quvvatlash tizimi</li>
+                                    </ul>
+
+                                    <h4>Kamchiliklari</h4>
+                                    <ul>
+                                        <li>Umumiy bozorlarga qaraganda cheklangan mahsulot assortimenti</li>
+                                        <li>Uchinchi tomon sotuvchilari uchun kamroq moslashuvchanlik</li>
+                                        <li>Kamroq muzokaralar o'tkazish imkoniyati bilan qat'iy narxlash</li>
+                                        <li>Yuqori operatsion xarajatlar narxlashda aks ettirilgan</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="economic-factors">
+                                <h4>Iqtisodiy omillar</h4>
+                                <p>Asaxiy to'g'ridan-to'g'ri chakana savdo va bozor modellarining kombinatsiyasi bilan
+                                    ishlaydi, bu esa imkon beradi
+                                    yaxshiroq sifat nazorati, lekin potentsial yuqori narxlar uchun. Platforma taklif
+                                    qiladi
+                                    turli to'lov opsiyalari, jumladan, qimmatroq mahsulotlar uchun bo'lib-bo'lib to'lash
+                                    rejalari.</p>
+                                <p>Platformaning alohida mahsulot toifalariga e'tibor qaratish ixtisoslashgan
+                                    marketingga imkon beradi
+                                    va mijozlarni jalb qilish strategiyalari.</p>
+
+                                <div class="css-chart horizontal-bar-chart">
+                                    <h4>Asaxiy daromad manbalari</h4>
+                                    <div class="horizontal-chart-container">
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">To'g'ridan-to'g'ri sotish</div>
+                                            <div class="h-bar-value" style="width: 60%; background-color: #5d4cf9;">60%</div>
+                                        </div>
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">Bozor to'lovlari</div>
+                                            <div class="h-bar-value" style="width: 20%; background-color: #5d4cf9;">20%</div>
+                                        </div>
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">To'lov rejalari</div>
+                                            <div class="h-bar-value" style="width: 15%; background-color: #5d4cf9;">15%</div>
+                                        </div>
+                                        <div class="horizontal-bar">
+                                            <div class="h-bar-label">Boshqa</div>
+                                            <div class="h-bar-value" style="width: 5%; background-color: #5d4cf9;">5%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="social-factors">
+                                <h4>Ijtimoiy omillar</h4>
+                                <p>Asaxiy kafolatli va sotuvdan keyingi yordamga ega ishonchli mahsulotlarni
+                                    qidirayotgan foydalanuvchilarni jalb qiladi. Platforma haqiqiylik va sifat kafolati
+                                    bo'yicha obro' qozondi.</p>
+                                <p>Platforma onlayn ishonchlilikni oshirish va ko'p kanalli xarid qilish tajribasini
+                                    ta'minlash uchun jismoniy do'kon mavjudligidan foydalanadi.</p>
+
+                                <div class="css-chart donut-chart">
+                                    <h4>Asaxiy foydalanuvchisi demografiyasi</h4>
+                                    <div class="donut-container">
+                                        <div class="donut-segment" style="--start: 0; --end: 0.2; --color: #ff846b;"> <!-- Soft Red -->
+                                        </div>
+                                        <div class="donut-segment" style="--start: 0.2; --end: 0.5; --color: #f7b32b;"> <!-- Warm Yellow -->
+                                        </div>
+                                        <div class="donut-segment" style="--start: 0.5; --end: 0.8; --color: #3a86ff;"> <!-- Bold Blue -->
+                                        </div>
+                                        <div class="donut-segment" style="--start: 0.8; --end: 1; --color: #43aa8b;"> <!-- Fresh Green -->
+                                        </div>  
+                                    </div>
+                                    <div class="donut-legend">
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #ff6b6b;"></span>18-24 (20%)</div>
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #f7b32b;"></span>25-34 (30%)</div>
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #3a86ff;"></span>35-44 (30%)</div>
+                                        <div class="legend-item"><span class="color-box"
+                                                style="background-color: #43aa8b;"></span>45+ (20%)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="comparison-content">
+                            <h3>Qiyosiy tahlil</h3>
+
+                            <div class="comparison-table-container">
+                                <table class="comparison-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Faktor</th>
+                                            <th>OLX.uz</th>
+                                            <th>Uzum Market</th>
+                                            <th>Asaxiy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Narx siyosati</td>
+                                            <td>Kelishish mumkin, foydalanuvchi belgilaydi</td>
+                                            <td>Doimiy aksiyalar bilan tuzatildi</td>
+                                            <td>To'lov opsiyalari bilan tuzatildi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>To'lov tizimlari</td>
+                                            <td>Asosan oflayn/naqd pul</td>
+                                            <td>Uzum Pay integratsiyasi</td>
+                                            <td>Ko'p to'lov imkoniyatlari</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bozor o'sishi</td>
+                                            <td>Doimiy, keng qamrovli</td>
+                                            <td>Tezkor, texnologiyaga asoslangan</td>
+                                            <td>Barqaror, toifaga yo'naltirilgan</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sotuvchi imkoniyatlari</td>
+                                            <td>Kirish uchun past to'siq, yuqori moslashuvchanlik</td>
+                                            <td>Rag'batlantiruvchi vositalar bilan tuzilgan</td>
+                                            <td>Tasdiqlangan hamkorlar bilan cheklangan</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Foydalanuvchilar demografiyasi</td>
+                                            <td>Keng, yoshroq qiyshiq</td>
+                                            <td>O'rta/yuqori daromad, shahar</td>
+                                            <td>Texnik bilimdon, ta'limga yo'naltirilgan</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Texnologiya infratuzilmasi</td>
+                                            <td>Asosiy, internetga yo'naltirilgan</td>
+                                            <td>Kengaytirilgan, mobil qurilmalar uchun birinchi</td>
+                                            <td>Muvozanatli veb va mobil</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Xavfsizlik choralari</td>
+                                            <td>Cheklangan, foydalanuvchi tomonidan boshqariladi</td>
+                                            <td>Kompleks, platforma tomonidan boshqariladigan</td>
+                                            <td>Kuchli, ayniqsa to'lovlar uchun</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hukumat munosabatlari</td>
+                                            <td>Standart monitoring</td>
+                                            <td>IT Park imtiyozlari</td>
+                                            <td>Standart muvofiqlik</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about-program" style="margin-top: 30px;" class="section">
+                <div class="section-header">
+                    <h2>Dastur haqida</h2>
+                </div>
+                <div class="section-content">
+                    <div class="program-overview">
+                        <h3>Dastur tavsifi</h3>
+                        <p>Ushbu tahlil dasturi e-tijorat landshafti haqida keng qamrovli tushunchalar beradi, bozordagi
+                            asosiy platformalarga e'tibor beradi. U bizneslar, tadbirkorlar va tadqiqotchilarga onlayn
+                            bozorlar dinamikasini tushunish va ongli qarorlar qabul qilishda yordam berish uchun
+                            mo'ljallangan.</p>
+
+                        <div class="program-features">
+                            <div class="feature">
+                                <h4>Keng qamrovli tahlil</h4>
+                                <p>Bizning dasturimiz bir nechta elektron tijorat platformalarining batafsil tahlilini
+                                    taklif qiladi, ularning faoliyati va muvaffaqiyatiga ta'sir qiluvchi iqtisodiy,
+                                    ijtimoiy, texnologik va huquqiy omillarni o'rganadi..</p>
+                            </div>
+                            <div class="feature">
+                                <h4>Interaktiv qidiruv</h4>
+                                <p>Foydalanuvchilar bozor manzarasining yaxlit ko'rinishini saqlab, qiziqishning o'ziga
+                                    xos jihatlariga e'tibor qaratib, turli bo'limlar va platformalar bo'ylab harakat
+                                    qilishlari mumkin..</p>
+                            </div>
+                            <div class="feature">
+                                <h4>Ma'lumotlarni vizualizatsiya qilish</h4>
+                                <p>Murakkab bozor ma'lumotlari intuitiv diagrammalar, grafiklar va taqqoslash orqali
+                                    taqdim etiladi
+                                    jadvallar, bu tendentsiyalarni, kuchli va zaif tomonlarni aniqlashni osonlashtiradi.
+                                </p>
+                            </div>
+                            <div class="feature">
+                                <h4>Amalga oshirish mumkin bo'lgan tushunchalar</h4>
+                                <p>Xom ma'lumotlardan tashqari, bizning dasturimiz strategik biznes qarorlari va bozor
+                                    joylashuviga aylantirilishi mumkin bo'lgan kontekstual tushunchalarni taqdim etadi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="program-workflow">
+                        <h3>Bu qanday ishlaydi</h3>
+                        <div class="workflow-diagram">
+                            <div class="css-chart flow-chart">
+                                <div class="flow-step">
+                                    <div class="flow-box">Ma'lumotlar yig'ish</div>
+                                    <div class="flow-arrow"></div>
+                                </div>
+                                <div class="flow-step">
+                                    <div class="flow-box">Ma'lumotlarni qayta ishlash</div>
+                                    <div class="flow-arrow"></div>
+                                </div>
+                                <div class="flow-step">
+                                    <div class="flow-box">Tahlil</div>
+                                    <div class="flow-arrow"></div>
+                                </div>
+                                <div class="flow-step">
+                                    <div class="flow-box">Vizualizatsiya</div>
+                                    <div class="flow-arrow"></div>
+                                </div>
+                                <div class="flow-step">
+                                    <div class="flow-box">Hisobot</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="workflow-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Ma'lumotlar yig'ish</h4>
+                                    <p>Dastur turli manbalardan ma'lumotlarni to'playdi, jumladan, platforma API'lari,
+                                        ommaviy axborot va bozor tadqiqotlari hisobotlari.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Tahlilni qayta ishlash</h4>
+                                    <p>To'plangan ma'lumotlar namunalar, tendentsiyalar va qiyosiy tushunchalarni
+                                        aniqlash uchun analitik algoritmlar orqali qayta ishlanadi.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Vizualizatsiya yaratish</h4>
+                                    <p>Tahlil natijalari osonroq tushunish va qaror qabul qilish uchun vizual
+                                        tasvirlarga aylantiriladi.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Interaktiv taqdimot</h4>
+                                    <p>Yakuniy tushunchalar foydalanuvchilarga tahlilning turli jihatlarini o'rganish
+                                        imkonini beruvchi interaktiv interfeys orqali taqdim etiladi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="program-benefits">
+                        <h3>Foyda</h3>
+                        <ul class="benefits-list">
+                            <li>Biznesingiz uchun qaysi platformalarga ustunlik berish haqida xabardor qarorlar qabul
+                                qiling</li>
+                            <li>Har bir bozorning noyob savdo takliflarini tushuning</li>
+                            <li>Biznes imkoniyatlarini ifodalashi mumkin bo'lgan bozordagi bo'shliqlarni aniqlang</li>
+                            <li>Platformaga xos tushunchalar asosida elektron tijorat strategiyangizni optimallashtiring
+                            </li>
+                            <li>Bozor tendentsiyalari va raqobat dinamikasidan xabardor bo'ling</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025. Elektron tijorat bozori tahlili Dasturi. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        
+        // Scroll to the section for better mobile experience
+        document.getElementById(sectionId).scrollIntoView({behavior: 'smooth'});
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('enter-btn').addEventListener('click', function () {
+            document.getElementById('intro').style.display = 'none';
+            document.getElementById('main-content').classList.remove('hidden');
+            showSection('general-market');
+        });
+        
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const sectionId = this.getAttribute('href').substring(1);
+                showSection(sectionId);
+                
+                // Close mobile menu if implemented in the future
+                // This is a placeholder for potential future enhancement
+            });
+        });
+        
+        document.querySelectorAll('.next-section a').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const sectionId = this.getAttribute('href').substring(1);
+                showSection(sectionId);
+            });
+        });
+        
+        // Add touch-friendly behavior for charts on mobile
+        const charts = document.querySelectorAll('.css-chart');
+        charts.forEach(chart => {
+            chart.addEventListener('touchstart', function() {
+                this.style.transform = 'scale(1.02)';
+            });
+            chart.addEventListener('touchend', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+    });
+    </script>
+</body>
+
+</html>
